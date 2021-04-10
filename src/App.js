@@ -1,11 +1,17 @@
 import React from "react";
 import "./style.css";
+import Nav from'./Nav.js';
 
-export default function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className ="App"> 
+    <Nav />
+    <main className="App-component">
+    <span>Empty</span>
+    </main>
     </div>
   );
 }
+
+export default App;
+
