@@ -12,7 +12,7 @@ return (
   <li className={itemClass('items')}>
   <button onClick={() => onTabChange('items')}>Items</button>
   </li>
-  <li className="App-nav-item">
+  <li className={itemClass('cart')}>
   <button onClick={() => onTabChange('cart')}>Cart</button>
   </li>
   </ul>
