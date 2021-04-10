@@ -3,7 +3,11 @@ import "./App.css";
 import Nav from './Nav.js';
 import ItemPage from './ItemPage';
 import {items} from './static-data';
-import Item from './Item.js';
+import CartPage from './CartPage';
+
+const summarizeCart = (cart) => {
+  
+}
 
 const App = () => {
   const [activeTab, setActiveTab] = useState('items');

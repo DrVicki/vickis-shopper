@@ -9,6 +9,7 @@ let items = [
     id: 1,
     name: "Apple Ipad Pro",
     description: "Even more expensive than the Ipad.",
+    price: 729.00
   },
 ];
 
