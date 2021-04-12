@@ -1,13 +1,15 @@
+
+
 let items = [
   {
-    image: ,
+
     id: 0,
     name: "Apple Ipad",
     description: "An Ipad like no other.",
     price: 329.00
   },
   {
-    image: ,
+  
     id: 1,
     name: "Apple Ipad Pro",
     description: "Even more expensive than the Ipad.",
